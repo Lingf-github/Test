@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app{
+  display: flex;
+  flex: 1;
+  height: 838px;
+  background: linear-gradient(52deg, #A6FD85 21.73%, rgba(235, 248, 230, 0.00) 88.64%);
+  justify-content: right;
+}
+.main-content {
+  flex: 1;
+}
+
+.main {
+  flex: 0 0 200px;
+  height: auto;
+  padding: 20px;
+  flex-shrink: 0;
+}
+.touxiang{
+  width: 60px;
+  height: 60px;
+  border-radius: 59px;
+  border: 5px solid #E5AB67;
+  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: url(logo.svg), lightgray 60% / cover no-repeat;
+  float: left;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+.touxiang1{
+  width: 60px;
+  height: 60px;
+  border-radius: 59px;
+  border: 5px solid #E5AB67;
+  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: url(logo.svg), lightgray 60% / cover no-repeat;
+  float: right;
+  margin-top: -10px;
+}
+.center{
+  display: flex;
+  flex: 1;
+  height: 635px;
+  padding-top: 100px;
+  justify-content: right;
+  background: linear-gradient(52deg, #A6FD85 21.73%, rgba(235, 248, 230, 0.00) 88.64%);
+  border-left: black 1px solid;
+}
+.huli{
+  width: 400px;
+  height: 400px;
+}
+.banner{
+  position: absolute;
+  right: 225px;
+  bottom: 275px;
+}
+.phantom{
+  position: absolute;
+  right: 10px;
+  bottom: 290px;
+}
