@@ -39,7 +39,7 @@
 .app{
   display: flex;
   flex: 1;
-  height: 838px;
+  height: auto;
   background: linear-gradient(52deg, #A6FD85 21.73%, rgba(235, 248, 230, 0.00) 88.64%);
   justify-content: right;
 }
@@ -52,6 +52,7 @@
   height: auto;
   padding: 20px;
   flex-shrink: 0;
+  border-left: blue 2px solid;
 }
 .touxiang{
   width: 60px;
@@ -96,4 +97,68 @@
   position: absolute;
   right: 10px;
   bottom: 290px;
+}
+.top{
+  display: flex;
+  margin-top: 70px;
+}
+.center1{
+  margin-top: 30px;
+  width: 340px;
+  height: 329px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #D9D9D9;
+  background: rgba(217, 217, 217, 0.20);
+}
+.name{
+  width: 340px;
+  height: 84px;
+  flex-shrink: 0;
+  border-radius: 12px 12px 0px 0px;
+  background: #D1FCC0;
+}
+.name input{
+  position: absolute;
+  bottom: 475px;
+}
+.Emma{
+  width: 340px;
+  background: #D9D9D9;
+}
+.Emma span{
+  position: absolute;
+  bottom: 410px;
+}
+.Liarn{
+  width: 340px;
+  background: #D9D9D9;
+}
+.Liarn span{
+  position: absolute;
+  bottom: 360px;
+}
+.Noah{
+  width: 340px;
+  background: #D9D9D9;
+}
+.Noah span{
+  position: absolute;
+  bottom: 310px;
+}
+.Ava{
+  width: 340px;
+  background: #D9D9D9;
+}
+.Ava span{
+  position: absolute;
+  bottom: 260px;
+}
+.isabela {
+  width: 340px;
+  background: #D9D9D9;
+}
+.isabela span{
+  position: absolute;
+  bottom: 210px;
 }
